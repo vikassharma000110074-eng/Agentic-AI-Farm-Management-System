@@ -1,0 +1,983 @@
+{
+  "records": [
+    {
+      "id": "8b4ddf31-befa-4b12-905d-9f1845b372ff",
+      "kind": "animals",
+      "data": {
+        "tag": "C001",
+        "name": "Asha",
+        "species": "Cattle",
+        "breed": "Holstein cross",
+        "birthDate": "2022-02-12",
+        "status": "Lactating",
+        "weightKg": 480,
+        "bodyCondition": 3
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "1f3edb77-38d0-4053-8936-5cfaa5f50004",
+      "kind": "animals",
+      "data": {
+        "tag": "C002",
+        "name": "Gauri",
+        "species": "Cattle",
+        "breed": "Holstein cross",
+        "birthDate": "2022-02-12",
+        "status": "Lactating",
+        "weightKg": 480,
+        "bodyCondition": 3
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "15131748-bf0f-4028-99f1-b23d111e8b65",
+      "kind": "animals",
+      "data": {
+        "tag": "C003",
+        "name": "Lakshmi",
+        "species": "Cattle",
+        "breed": "Holstein cross",
+        "birthDate": "2022-02-12",
+        "status": "Lactating",
+        "weightKg": 480,
+        "bodyCondition": 3
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "790e6c83-b1ac-46f5-8680-be891b045ef8",
+      "kind": "animals",
+      "data": {
+        "tag": "C004",
+        "name": "Nandi",
+        "species": "Cattle",
+        "breed": "Holstein cross",
+        "birthDate": "2022-02-12",
+        "status": "Lactating",
+        "weightKg": 480,
+        "bodyCondition": 3
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "4d1dcac1-09c0-4ffa-a9a1-e4855d1073fb",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-26",
+        "animalTag": "C001",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "57132652-38ce-4c83-a49a-cbcd57d4c012",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-26",
+        "animalTag": "C002",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "3777db61-c480-4ede-81c0-bcef87c4a2a6",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-26",
+        "animalTag": "C003",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "99b70647-c186-42d4-a1df-6eb67b53cf4f",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-26",
+        "animalTag": "C004",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "5a0a3626-3e12-4d25-a5b0-e4f7f66336f8",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-27",
+        "animalTag": "C001",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "575fd6dd-0c16-42a2-bb7c-17aef235ef05",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-27",
+        "animalTag": "C002",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "b918b9ff-6628-403b-81f7-cd82532c99a7",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-27",
+        "animalTag": "C003",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "cb7a152c-709d-489a-b74f-1b3135ad943f",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-27",
+        "animalTag": "C004",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "dcf7231e-eca6-4193-9bd6-9b516315e7ce",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-28",
+        "animalTag": "C001",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "d9a4b960-b5aa-411e-8748-121f4ef76a37",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-28",
+        "animalTag": "C002",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "7c13a379-6623-45cd-9c3c-ab46b8d55092",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-28",
+        "animalTag": "C003",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "6d8fe303-cdfe-49c7-9165-6d87185fc062",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-28",
+        "animalTag": "C004",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "4e794860-f2c8-49b7-aaa2-9f3637ca985d",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-29",
+        "animalTag": "C001",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "dc5b38fd-d239-4089-882a-eea1e07197f3",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-29",
+        "animalTag": "C002",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "ce4d9955-0df3-45ae-91bd-e95bb5f672bc",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-29",
+        "animalTag": "C003",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "46c009b2-b255-41d2-ad25-ff95772630b2",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-29",
+        "animalTag": "C004",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "16a28b23-4b4d-4ede-8629-b0b397123652",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-30",
+        "animalTag": "C001",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "543d1f34-0b05-4843-96bd-b5954108667d",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-30",
+        "animalTag": "C002",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "57059eed-0db0-4839-b32d-89b488b47352",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-30",
+        "animalTag": "C003",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "af5179f2-9f23-4956-b47c-211b88e1b8dd",
+      "kind": "production",
+      "data": {
+        "date": "2026-09-30",
+        "animalTag": "C004",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "ac8881bb-5a31-4b1c-b4a4-166929059c3f",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-01",
+        "animalTag": "C001",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "133522ab-6b91-4414-bde7-a326b87708c9",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-01",
+        "animalTag": "C002",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "d0dd7c60-1d47-490e-9573-657adb528af7",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-01",
+        "animalTag": "C003",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "27a006c5-ed89-43e6-9b29-8cf06693aa8d",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-01",
+        "animalTag": "C004",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "cbc95bd4-fbfe-4cc1-b580-cd07f3e90b77",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-02",
+        "animalTag": "C001",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "624cb8ea-7b1d-430a-b30c-01060f51ab9b",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-02",
+        "animalTag": "C002",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "fa247123-524b-497c-939c-259519eeabf0",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-02",
+        "animalTag": "C003",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "c35847ef-e32b-4788-abab-42b75630352c",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-02",
+        "animalTag": "C004",
+        "milkLitres": 20,
+        "soldLitres": 20,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 24,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "f8ba48a9-23ba-427d-b9e8-61b4bcd8fcee",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-03",
+        "animalTag": "C001",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "c2b2f84a-a7be-43cb-8532-7570e32331ce",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-03",
+        "animalTag": "C002",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "6bfda48c-ae65-4ffb-877a-1e16302f6972",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-03",
+        "animalTag": "C003",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "ff1a44c7-056f-4475-8bf5-2c0daa233f8e",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-03",
+        "animalTag": "C004",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "615e5cf2-7db8-42c8-9e42-e576443a5473",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-04",
+        "animalTag": "C001",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "e366c576-d762-44f7-8729-f31b56275089",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-04",
+        "animalTag": "C002",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "662478d4-1a06-4c70-93cf-36ef43b9a8a7",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-04",
+        "animalTag": "C003",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "d0145aa5-b880-4fe3-a7d5-1bc22eadf65a",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-04",
+        "animalTag": "C004",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "941755ef-4898-4598-b98c-1657d9f7e97b",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-05",
+        "animalTag": "C001",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "0756db53-6bc7-4906-bad7-7dc26ff9013a",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-05",
+        "animalTag": "C002",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "03915362-dfa1-4d5a-bae3-c40c042fb939",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-05",
+        "animalTag": "C003",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "02fece1a-019c-41cc-9d9c-e78682a95c9a",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-05",
+        "animalTag": "C004",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "6062c566-de08-48de-9c35-47c69d31d858",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-06",
+        "animalTag": "C001",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "7379f786-1d8c-42f6-8276-b183c1c6f4a5",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-06",
+        "animalTag": "C002",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "4afe91b6-dd8d-4f3c-802c-c9f24af24593",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-06",
+        "animalTag": "C003",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "fb287498-b760-48a1-aa6f-ff3966f5e903",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-06",
+        "animalTag": "C004",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "3d1e2a57-c2a7-4d3e-90fd-b1eb3927a279",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-07",
+        "animalTag": "C001",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "2790f679-be57-48ad-87d6-e10e0175aa10",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-07",
+        "animalTag": "C002",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "f09bef27-64e3-4cc2-9298-6763c5e59045",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-07",
+        "animalTag": "C003",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "d5e28a55-077f-42b2-aade-78de9389d37b",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-07",
+        "animalTag": "C004",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "2e484bcd-7a91-4f48-8f0c-b8e23b1ac14f",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-08",
+        "animalTag": "C001",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "b96e18ea-553d-4656-af5f-7612e62ead50",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-08",
+        "animalTag": "C002",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "34676d56-df68-4796-8996-4d09fa845366",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-08",
+        "animalTag": "C003",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "fb9fd33d-c768-4681-8729-53d5cd9f26d8",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-08",
+        "animalTag": "C004",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "a32fc2f9-5aa5-42dd-883d-f4bfc066d72d",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-09",
+        "animalTag": "C001",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "64eb0a2d-d50d-459a-8743-e83a2005a660",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-09",
+        "animalTag": "C002",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "69426534-aa1c-41c5-86e2-ba286a87fd3d",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-09",
+        "animalTag": "C003",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "60404ef5-a798-407a-9cbf-65874578c79c",
+      "kind": "production",
+      "data": {
+        "date": "2026-10-09",
+        "animalTag": "C004",
+        "milkLitres": 16,
+        "soldLitres": 14,
+        "pricePerLitre": 42,
+        "fatPercent": 3.8,
+        "temperatureC": 32,
+        "humidityPercent": 65
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "f5a89d84-2fd5-4b8e-b17b-fa8227918426",
+      "kind": "health",
+      "data": {
+        "animalTag": "C001",
+        "date": "2026-10-09",
+        "temperatureC": 39.7,
+        "symptoms": "Reduced appetite and abnormal milk; veterinarian review pending",
+        "severity": "Concern",
+        "treatment": "Assessment pending",
+        "withdrawalUntil": "2026-10-11"
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "c2bd3635-6ea7-421b-8b98-e1d5542633e9",
+      "kind": "nutrition",
+      "data": {
+        "date": "2026-10-09",
+        "group": "Lactating herd",
+        "feedName": "Mixed ration",
+        "offeredKg": 120,
+        "consumedKg": 96,
+        "dryMatterPercent": 45,
+        "waterAvailable": "Yes",
+        "notes": "Feed refusals increased"
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "91b1596f-6f1a-453d-9af0-ec85c8daebed",
+      "kind": "breeding",
+      "data": {
+        "animalTag": "C002",
+        "heatDate": "2026-02-11",
+        "serviceDate": "2026-02-16",
+        "pregnancy": "Confirmed",
+        "expectedCalving": "2026-10-17",
+        "notes": "Expected date entered by farmer"
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "dc617902-328e-4f71-ad32-35314cada6d8",
+      "kind": "inventory",
+      "data": {
+        "item": "Concentrate feed",
+        "category": "Feed",
+        "quantity": 80,
+        "unit": "kg",
+        "dailyUse": 24,
+        "leadDays": 5,
+        "unitCost": 28,
+        "expiryDate": "2026-12-08"
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "38a39fd0-b196-44c8-9039-b124371c2be6",
+      "kind": "finance",
+      "data": {
+        "date": "2026-10-09",
+        "category": "Feed",
+        "amount": 4700,
+        "description": "Weekly feed purchase"
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    },
+    {
+      "id": "ddc5d676-f861-44a8-a63a-cf51de425557",
+      "kind": "finance",
+      "data": {
+        "date": "2026-10-09",
+        "category": "Labour",
+        "amount": 1800,
+        "description": "Weekly labour"
+      },
+      "createdAt": "2026-10-09T04:37:29.254Z"
+    }
+  ]
+}
